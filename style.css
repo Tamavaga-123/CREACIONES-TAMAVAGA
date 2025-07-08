@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f7f3f0;
+  color: #4b3f39;
+}
+
+header {
+  background-color: #e9d8c3;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #d4b48c;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+nav {
+  background-color: #fffaf5;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #6b4c3b;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #7d5a4f;
+  border-bottom: 1px solid #cbb8a2;
+  padding-bottom: 0.5rem;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.catalogo img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #d9c5b2;
+  transition: transform 0.3s ease;
+}
+
+.catalogo img:hover {
+  transform: scale(1.05);
+}
+
+.contacto {
+  background-color: #f0e7de;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+footer {
+  background-color: #e2cdb8;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 2px solid #d4b48c;
+}
